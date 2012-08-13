@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+      <groupId>org.eclipse.hudson</groupId>
+      <artifactId>hudson-parent</artifactId>
+      <version>3.0.0-M4</version>
+    </parent>
+
+    <groupId>org.hudsonci.lib</groupId>
+    <artifactId>envinject-lib</artifactId>
+    <version>1.12-h-1</version>
+    <packaging>jar</packaging>
+    <name>EnvInject Library</name>
+    <url>https://wiki.hudson-ci.org/display/HUDSON/EnvInject+Plugin</url>
+
+    <licenses>
+        <license>
+            <name>MIT license</name>
+            <comments>All source code is under the MIT license.</comments>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>gbois</id>
+            <name>Gregory Boissinot</name>
+            <timezone>+1</timezone>
+            <roles>
+                <role>Project Owner</role>
+                <role>Project Lead Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+        <hudson.core.version>3.0.0-M4</hudson.core.version>
+    </properties>
+
+    <scm>
+        <connection>scm:git:git://github.com/hudson3-plugins/envinject-lib.git</connection>
+        <developerConnection>scm:git:git@github.com:hudson3-plugins/envinject-lib.git</developerConnection>
+    </scm>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.eclipse.hudson</groupId>
+            <artifactId>hudson-core</artifactId>
+            <version>${hudson.core.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+    </dependencies>
+
+</project>
