@@ -5,12 +5,12 @@
     <parent>
       <groupId>org.eclipse.hudson</groupId>
       <artifactId>hudson-parent</artifactId>
-      <version>3.0.0-M4</version>
+      <version>3.0.0-RC2</version>
     </parent>
 
     <groupId>org.hudsonci.lib</groupId>
     <artifactId>envinject-lib</artifactId>
-    <version>1.12-h-2-SNAPSHOT</version>
+    <version>1.13-h-1</version>
     <packaging>jar</packaging>
     <name>EnvInject Library</name>
     <url>https://wiki.hudson-ci.org/display/HUDSON/EnvInject+Plugin</url>
@@ -38,7 +38,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
-        <hudson.core.version>3.0.0-M4</hudson.core.version>
+        <hudson.core.version>3.0.0-RC2</hudson.core.version>
     </properties>
 
     <scm>
